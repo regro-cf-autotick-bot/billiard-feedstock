@@ -10,7 +10,7 @@ source:
     md5: 6ee416e1e7c8d8164ce29d7377cca6a4
 
 build:
-    number: 0
+    number: 1
     script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -34,4 +34,5 @@ about:
 
 extra:
     recipe-maintainers:
+        - jakirkham
         - kwilcox
