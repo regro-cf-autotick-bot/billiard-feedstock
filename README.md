@@ -5,7 +5,7 @@ Home: http://github.com/celery/billiard
 
 Package license: BSD License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Python multiprocessing fork with improvements and bugfixes
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/billiard-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/billiard-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/billiard-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/billiard-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/billiard-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/billiard-feedstock/branch/master)
