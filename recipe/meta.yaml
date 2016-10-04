@@ -6,8 +6,8 @@ package:
 
 source:
   fn: billiard-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/b/billiard/billiard-{{ version }}.tar.gz
-  md5: 6ee416e1e7c8d8164ce29d7377cca6a4
+  url: https://pypi.io/packages/source/b/billiard/billiard-{{ version }}.tar.gz
+  sha256: 692a2a5a55ee39a42bcb7557930e2541da85df9ea81c6e24827f63b80cd39d0b
 
 build:
   number: 1
