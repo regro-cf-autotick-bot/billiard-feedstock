@@ -1,4 +1,4 @@
-{% set version = "3.5.0.0" %}
+{% set version = "3.5.0.1" %}
 
 package:
   name: billiard
@@ -7,7 +7,7 @@ package:
 source:
   fn: billiard-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/b/billiard/billiard-{{ version }}.tar.gz
-  sha256: 800fa0ac7b362585d43d2d4b8d6aeb5ada25796121956e15dc1e68cfe5319234
+  sha256: 989e5c208350ada5f37f0f187758a801457fe53e9a1d06c139796afcfafabd5b
 
 build:
   number: 0
@@ -24,8 +24,6 @@ test:
   imports:
     - billiard
     - billiard.dummy
-    - billiard.tests
-    - funtests
 
 about:
   home: http://github.com/celery/billiard
