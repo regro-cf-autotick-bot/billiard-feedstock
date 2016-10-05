@@ -3,7 +3,7 @@ About billiard
 
 Home: http://github.com/celery/billiard
 
-Package license: BSD License
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
