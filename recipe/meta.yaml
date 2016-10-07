@@ -1,4 +1,4 @@
-{% set version = "3.3.0.23" %}
+{% set version = "3.5.0.0" %}
 
 package:
   name: billiard
@@ -7,10 +7,10 @@ package:
 source:
   fn: billiard-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/b/billiard/billiard-{{ version }}.tar.gz
-  sha256: 692a2a5a55ee39a42bcb7557930e2541da85df9ea81c6e24827f63b80cd39d0b
+  sha256: 800fa0ac7b362585d43d2d4b8d6aeb5ada25796121956e15dc1e68cfe5319234
 
 build:
-  number: 3
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
