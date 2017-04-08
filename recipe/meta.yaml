@@ -27,6 +27,8 @@ test:
   imports:
     - billiard
     - billiard.dummy
+    - billiard.tests
+    - funtests
 
 about:
   home: https://github.com/celery/billiard
