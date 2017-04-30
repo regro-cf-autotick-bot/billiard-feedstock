@@ -1,7 +1,7 @@
 About billiard
 ==============
 
-Home: http://github.com/celery/billiard
+Home: https://github.com/celery/billiard
 
 Package license: BSD 3-Clause
 
@@ -10,6 +10,18 @@ Feedstock license: BSD 3-Clause
 Summary: Python multiprocessing fork with improvements and bugfixes
 
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/billiard-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/billiard-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/billiard-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/billiard-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/billiard-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/billiard-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/billiard/badges/version.svg)](https://anaconda.org/conda-forge/billiard)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/billiard/badges/downloads.svg)](https://anaconda.org/conda-forge/billiard)
 
 Installing billiard
 ===================
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `billiard` available on your platf
 ```
 conda search billiard --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/billiard-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/billiard-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/billiard-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/billiard-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/billiard-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/billiard-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/billiard/badges/version.svg)](https://anaconda.org/conda-forge/billiard)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/billiard/badges/downloads.svg)](https://anaconda.org/conda-forge/billiard)
 
 
 Updating billiard-feedstock
