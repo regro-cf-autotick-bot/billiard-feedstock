@@ -1,6 +1,6 @@
 {% set name = "billiard" %}
-{% set version = "3.5.0.4" %}
-{% set sha256 = "ed65448da5877b5558f19d2f7f11f8355ea76b3e63e1c0a6059f47cfae5f1c84" %}
+{% set version = "3.5.0.5" %}
+{% set sha256 = "42d9a227401ac4fba892918bba0a0c409def5435c4b483267ebfe821afaaba0e" %}
 
 package:
   name: {{ name }}
