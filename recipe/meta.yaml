@@ -1,26 +1,22 @@
-{% set name = "billiard" %}
-{% set version = "3.5.0.4" %}
-{% set sha256 = "ed65448da5877b5558f19d2f7f11f8355ea76b3e63e1c0a6059f47cfae5f1c84" %}
+{% set version = "3.6.0.0" %}
 
 package:
-  name: {{ name }}
+  name: billiard
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/b/billiard/billiard-{{ version }}.tar.gz
+  sha256: 756bf323f250db8bf88462cd042c992ba60d8f5e07fc5636c24ba7d6f4261d84
 
 build:
-  number: 1000
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
     - {{ compiler("c") }}
   host:
     - python
-    - setuptools
     - pip
   run:
     - python
@@ -32,7 +28,7 @@ test:
 
 about:
   home: https://github.com/celery/billiard
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: Python multiprocessing fork with improvements and bugfixes
