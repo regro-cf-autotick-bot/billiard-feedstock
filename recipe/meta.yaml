@@ -1,4 +1,4 @@
-{% set version = "3.6.0.0" %}
+{% set version = "3.6.2.0" %}
 
 package:
   name: billiard
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/b/billiard/billiard-{{ version }}.tar.gz
-  sha256: 756bf323f250db8bf88462cd042c992ba60d8f5e07fc5636c24ba7d6f4261d84
+  sha256: f4e09366653aa3cb3ae8ed16423f9ba1665ff426f087bcdbbed86bf3664fe02c
 
 build:
   number: 0
